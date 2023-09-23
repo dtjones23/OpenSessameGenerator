@@ -11,6 +11,14 @@ function writePassword() {
 
   passwordText.value = password;
 
+
+  function generatePassword (){
+    var newPass = "TEST";
+
+
+    return newPass;
+  }
+
 }
 
 // Add event listener to generate button
