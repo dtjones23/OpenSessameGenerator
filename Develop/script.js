@@ -1,5 +1,5 @@
 // Assignment code here
-var passLength = 0;
+var passLength = 8;
 var newPass ="";
 
 // Get references to the #generate element
@@ -16,6 +16,10 @@ function writePassword() {
   function generatePassword (){
     var validChar = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890!@#$%^&*()[]\|"
     // added list for all valid characters
+
+    for ( i=0; i < newPass.length; i++)
+    newPass += validChar[Math.floor(Math.random() * validChar.length)];
+  // how the code will generate characters randomly
   }
     
 
