@@ -6,4 +6,4 @@ The purpose of this assignment was to implement a feature in browser that has dy
 # Usage
 https://dtjones23.github.io/OpenSessameGenerator/
 
-![alt text](develop/assets/Screen%20Shot%202023-09-25%20at%209.52.46%20PM.png)
+    ![alt text](develop/assets/Screen%20Shot%202023-09-25%20at%209.52.46%20PM.png)
