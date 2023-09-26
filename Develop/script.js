@@ -31,9 +31,9 @@ function generatePassword (){
   // set min and max for valid characters
   // logs string to window and prompts the requirements
   if (newPass.length < 8) {
-    window.alert ("Password must be 8-128 characters and include correct character types.")
+    window.confirm ("Password must be 8-128 characters and include correct character types.")
   } else if (newPass.length < 128) {
-    window.alert ("Password must be 8-128 characters and include correct character types.")
+    window.confirm ("Password must be 8-128 characters and include correct character types.")
   }
 
   // This will log the new password and confirm in window
